@@ -1,0 +1,5 @@
+src_ip, dst_ip, protocol, packet_size, duration, src_port, dst_port, packets, bytes, threat_type
+192.168.1.2, 172.16.0.5, TCP, 540, 2.1, 443, 80, 12, 2048, normal
+192.168.1.8, 10.0.0.5, UDP, 1200, 5.8, 5353, 53, 32, 8096, dos
+10.0.0.12, 192.168.1.20, TCP, 80, 0.5, 22, 443, 4, 512, port_scan
+...

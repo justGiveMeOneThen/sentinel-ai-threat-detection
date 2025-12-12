@@ -1,0 +1,15 @@
+### Predict threat type
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+{
+  "src_ip": "192.168.1.10",
+  "dst_ip": "172.16.0.5",
+  "protocol": "TCP",
+  "packet_size": 540,
+  "duration": 2.1,
+  "src_port": 443,
+  "dst_port": 8181,
+  "packets": 15,
+  "bytes": 2048
+}
